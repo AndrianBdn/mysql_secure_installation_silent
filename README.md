@@ -8,6 +8,9 @@ It does not ask any questions (assumes most secure options), generates random pa
 This script is based on mysql_secure_installation script included with MySQL itself. 
 
 You can review the changes by calling 
-  diff mysql_secure_installation_silent /usr/bin/mysql_secure_installation
+```bash
+diff mysql_secure_installation_silent /usr/bin/mysql_secure_installation
+```
+
 
 
